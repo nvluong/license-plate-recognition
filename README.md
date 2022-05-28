@@ -7,9 +7,14 @@ Problems include :
   * prepare license plate data and put it through yolo v4 to detect the area containing license plates in the image
   * then use image processing methods to separate the characters in the number plate area :
       * adaptiveThreshold ,Connected components analysis, GaussianBlur ...
+# Built With
+  * Python
+  * Tensorflow
+  * Google colab
 ## Required settings
 add the file yolov4-custom_1000 to the weights folder :
      [link](https://drive.google.com/file/d/1r09xXltB287xWtOnQFfhZwVd2LcRLMRR/view?usp=sharing)
+     
 # Result
 ![image](https://user-images.githubusercontent.com/32773852/170819572-a305c432-51c6-4fca-8767-a7afe5f52cc3.png)
 
