@@ -8,7 +8,10 @@ Problems include :
   * then use image processing methods to separate the characters in the number plate area :
       * adaptiveThreshold ,Connected components analysis, GaussianBlur ...
   * use cnn network to recognize characters:
-      * Conv2d x2 -> MaxPool -> Dropout -> Conv2d x2 -> MaxPool -> Dropout -> Conv2d x2 -> MaxPool -> Dropout -> Flatten -> Dense -> Dropout -> Softmax(31)
+      * Conv2d x2 -> MaxPool -> Dropout -> 
+        Conv2d x2 -> MaxPool -> Dropout -> 
+        Conv2d x2 -> MaxPool -> Dropout -> 
+        Flatten -> Dense -> Dropout -> Softmax(31)
 # Built With
   * Python
   * Tensorflow
