@@ -12,6 +12,7 @@ Problems include :
         Conv2d x2 -> MaxPool -> Dropout -> 
         Conv2d x2 -> MaxPool -> Dropout -> 
         Flatten -> Dense -> Dropout -> Softmax(31)
+        
 # Built With
   * Python
   * Tensorflow
