@@ -7,6 +7,8 @@ Problems include :
   * prepare license plate data and put it through yolo v4 to detect the area containing license plates in the image
   * then use image processing methods to separate the characters in the number plate area :
       * adaptiveThreshold ,Connected components analysis, GaussianBlur ...
+  * use cnn network to recognize characters:
+      * Conv2d x2 -> MaxPool -> Dropout -> Conv2d x2 -> MaxPool -> Dropout -> Conv2d x2 -> MaxPool -> Dropout -> Flatten -> Dense -> Dropout -> Softmax(31)
 # Built With
   * Python
   * Tensorflow
