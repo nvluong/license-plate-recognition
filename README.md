@@ -11,6 +11,12 @@ Problems include :
   * Python
   * Tensorflow
   * Google colab
+# Data train yolo
+[link]([https://drive.google.com/file/d/1r09xXltB287xWtOnQFfhZwVd2LcRLMRR/view?usp=sharing](https://thigiacmaytinh.com/tai-nguyen-xu-ly-anh/tong-hop-data-xu-ly-anh/?fbclid=IwAR2tajA5Ku83kIrb09ovhmb_68Zmdwo9KvV_CSNBCTbuIIsiK_FUM4W4Dh8))
+
+# Data digit train CNN
+[link](https://www.mediafire.com/file/3l3x7bd7rq91l5r/data_digit.zip/file)
+
 ## Required settings
 add the file yolov4-custom_1000 to the weights folder :
      [link](https://drive.google.com/file/d/1r09xXltB287xWtOnQFfhZwVd2LcRLMRR/view?usp=sharing)
